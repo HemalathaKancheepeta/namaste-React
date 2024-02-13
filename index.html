@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>namsate React</title>
+    <link rel="stylesheet" href="./index.css">
+    <script  src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+
+    
+    <div id="root1"></div>
+    <div id="root">
+        <script src="./App.js"></script>
+        <h2>Hello World!!!!</h2>
+        <script>
+          const heading=document.createElement("h3");
+          heading.innerHTML="Hello World from JS";  
+          const root=document.getElementById("root");
+          root.appendChild(heading);
+
+          
+        </script>
+       
+
+        <script>
+          //  const headingReact=React.createElement("h4",{id:"heading"},"Hello World from React!!!");
+          //  const rootReact=ReactDOM.createRoot(document.getElementById("root1"));
+          //  rootReact.render(headingReact);
+        </script>
+        
+    </div>
+</body>
+</html>
